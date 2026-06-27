@@ -1,0 +1,9 @@
+.next
+node_modules
+.env*.local
+.vercel
+dist
+coverage
+*.tsbuildinfo
+work/
+outputs/
