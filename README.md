@@ -1,12 +1,12 @@
 # ChineseNameAI
 
-ChineseNameAI is a deployable SaaS built with Next.js 15, TypeScript, Tailwind CSS, Supabase Auth/Database, OpenAI, Stripe Checkout, and Vercel.
+ChineseNameAI is a deployable SaaS built with Next.js 15, TypeScript, Tailwind CSS, Supabase Auth/Database, OpenAI or Gemini, Stripe Checkout, and Vercel.
 
 ## Features
 
 - Magic-link login with Supabase Auth
 - Free generation: 3 Chinese names, maximum 3 free reports per user per day
-- Paid one-time $9 unlock through Stripe Checkout
+- Paid one-time $4.99 unlock through Stripe Checkout
 - Full paid report: 30 names, pinyin, English explanations, Chinese meanings, cultural notes, scenario guidance, style picks, signature prompt, and seal prompt
 - User dashboard and report history
 - Mobile responsive App Router UI
@@ -46,7 +46,7 @@ GEMINI_API_KEY=your-gemini-api-key
 GEMINI_MODEL=gemini-1.5-flash
 STRIPE_SECRET_KEY=sk_test_your-stripe-secret-key
 STRIPE_WEBHOOK_SECRET=whsec_your-webhook-secret
-STRIPE_PRICE_ID=price_your_9_usd_one-time-price
+STRIPE_PRICE_ID=price_your_one-time-price
 ```
 
 5. Run the app:
@@ -59,7 +59,7 @@ Open `http://localhost:3000`.
 
 ## Stripe setup
 
-1. In Stripe, create a one-time product priced at `$9`.
+1. In Stripe, create a one-time product priced at `$4.99`.
 2. Copy the Price ID into `STRIPE_PRICE_ID`.
 3. For local webhook testing, install the Stripe CLI and run:
 
