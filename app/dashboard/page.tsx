@@ -44,16 +44,20 @@ export default async function DashboardPage() {
           reports.map((report) => {
             const input = report.input as { englishName?: string; purpose?: string; country?: string };
             return (
-              <Link key={report.id} className="border border-black/10 bg-white p-4 hover:border-cinnabar" href={`/result?id=${report.id}`}>
+              <Link
+                key={report.id}
+                className="border border-black/10 bg-white p-4 hover:border-cinnabar"
+                href={`/result?id=${report.id}`}
+              >
                 <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
                   <div>
                     <h2 className="font-semibold">{input.englishName || "Untitled report"}</h2>
                     <p className="mt-1 text-sm text-ink/60">
-                      {input.country} · {input.purpose}
+                      {input.country} - {input.purpose}
                     </p>
                   </div>
                   <div className="text-sm text-ink/55">
-                    {report.mode} · {new Date(report.created_at).toLocaleDateString()}
+                    {report.mode} - {new Date(report.created_at).toLocaleDateString()}
                   </div>
                 </div>
               </Link>

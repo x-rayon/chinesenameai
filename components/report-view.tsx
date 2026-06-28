@@ -1,5 +1,5 @@
-import type { NameReport } from "@/lib/types";
 import { NameAudioButton } from "@/components/name-audio-button";
+import type { NameReport } from "@/lib/types";
 
 export function ReportView({ report }: { report: NameReport }) {
   return (
@@ -8,7 +8,7 @@ export function ReportView({ report }: { report: NameReport }) {
         <p className="text-sm uppercase tracking-wide text-cinnabar">Chinese name report</p>
         <h1 className="mt-2 text-3xl font-semibold">For {report.input.englishName}</h1>
         <p className="mt-2 text-ink/65">
-          {report.input.country} · {report.input.gender} · {report.input.purpose}
+          {report.input.country} - {report.input.gender} - {report.input.purpose}
         </p>
       </section>
 
