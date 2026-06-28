@@ -77,8 +77,15 @@ export function GenerateForm({ isPaid }: { isPaid: boolean }) {
           className="mt-6 inline-flex w-full items-center justify-center gap-2 bg-cinnabar px-5 py-3 font-medium text-white disabled:cursor-not-allowed disabled:bg-ink/30 sm:w-auto"
         >
           <Wand2 className="h-4 w-4" aria-hidden />
-          {loading ? "Generating..." : isPaid ? "Generate full report" : "Generate 3 names"}
+          {loading ? "Creating your report..." : isPaid ? "Generate full report" : "Generate 3 names"}
         </button>
+        {loading ? (
+          <p className="mt-4 max-w-xl text-sm text-ink/60" aria-live="polite">
+            {isPaid
+              ? "Creating a complete 30-name cultural report. This can take 20-60 seconds."
+              : "Creating 3 Chinese name ideas. This usually takes a few seconds."}
+          </p>
+        ) : null}
         {error ? <p className="mt-4 text-sm text-red-700">{error}</p> : null}
       </div>
       <aside className="border border-black/10 bg-[#e8f3ef] p-5">
