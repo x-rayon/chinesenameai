@@ -27,6 +27,12 @@ const nameIdeaSchema = z.object({
   nativeImpression: z.string().optional(),
   riskWarning: z.string().optional(),
   whyItFits: z.string().optional(),
+  consultantNote: z.string().optional(),
+  nativeImpressionTraits: z.array(z.string()).optional(),
+  rejectedStyles: z.array(z.string()).optional(),
+  callNameSuggestions: z.array(z.string()).optional(),
+  suitableFor: z.array(z.string()).optional(),
+  naturalnessConfidence: z.coerce.number().min(1).max(100).optional(),
 });
 
 const reportSchema = z.object({
@@ -63,9 +69,10 @@ export async function generateNameReport(input: NameRequest): Promise<NameReport
     "You are ChineseNameAI, a careful bilingual naming consultant.",
     `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown.",
-    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, suitabilityScore, culturalQualityScore, overallConfidence, nativeImpression, riskWarning, and whyItFits.",
+    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, suitabilityScore, culturalQualityScore, overallConfidence, nativeImpression, riskWarning, whyItFits, consultantNote, nativeImpressionTraits, rejectedStyles, callNameSuggestions, suitableFor, and naturalnessConfidence.",
     "Scores must be realistic 1-10 integers. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence. pronunciationDifficulty must be Easy, Medium, or Hard. nativeImpression must be Elegant, Professional, Friendly, Literary, or Modern. riskWarning must be Safe, Slightly formal, Too literary, or Old-fashioned.",
-    "Use plain, consumer-friendly English. Avoid archaic or academic words such as sagacious. Match the user's gender; if gender is neutral, avoid gendered words such as man or woman.",
+    "Write like a thoughtful Chinese naming consultant, not a generator. Explain why you would personally recommend or reject a style. Use plain, consumer-friendly English. Avoid archaic or academic words such as sagacious. Match the user's gender; if gender is neutral, avoid gendered words such as man or woman.",
+    "nativeImpressionTraits should be 3-5 concise traits a native Chinese person may perceive, such as Professional, Trustworthy, Calm, Educated. rejectedStyles should mention styles intentionally avoided, such as old-fashioned names, difficult pronunciation, internet-style names, or overly literary names. callNameSuggestions should include natural short forms like 小 + given-name character or 阿 + given-name character. suitableFor should include realistic contexts such as Business, WeChat, LinkedIn, Studying in China, Daily conversations.",
     "For paid mode include stylePicks and prompts with Chinese signature and seal image-generation prompts.",
     `Input: ${JSON.stringify(input)}`,
   ].join("\n");
@@ -103,10 +110,11 @@ async function generateGeminiNameReport(input: NameRequest, candidateCount: numb
     "You are ChineseNameAI, a careful bilingual naming consultant.",
     `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown, no code fences.",
-    "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"suitabilityScore\":8,\"culturalQualityScore\":9,\"overallConfidence\":9,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\"}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
-    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, suitabilityScore, culturalQualityScore, overallConfidence, nativeImpression, riskWarning, and whyItFits.",
+    "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"suitabilityScore\":8,\"culturalQualityScore\":9,\"overallConfidence\":9,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\",\"consultantNote\":\"\",\"nativeImpressionTraits\":[\"Professional\",\"Trustworthy\",\"Calm\",\"Educated\"],\"rejectedStyles\":[\"Old-fashioned names\",\"Difficult pronunciation\",\"Internet-style names\",\"Overly literary names\"],\"callNameSuggestions\":[\"小明\",\"阿德\"],\"suitableFor\":[\"Business\",\"WeChat\",\"LinkedIn\",\"Studying in China\",\"Daily conversations\"],\"naturalnessConfidence\":98}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
+    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, suitabilityScore, culturalQualityScore, overallConfidence, nativeImpression, riskWarning, whyItFits, consultantNote, nativeImpressionTraits, rejectedStyles, callNameSuggestions, suitableFor, and naturalnessConfidence.",
     "Scores must be realistic 1-10 integers based on how a native Chinese speaker would perceive the name. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence.",
-    "Use plain, consumer-friendly English. Avoid archaic or academic words such as sagacious. Match the user's gender; if gender is neutral, avoid gendered words such as man or woman.",
+    "Write like a thoughtful Chinese naming consultant, not a generator. Explain why you would personally recommend or reject a style. Use plain, consumer-friendly English. Avoid archaic or academic words such as sagacious. Match the user's gender; if gender is neutral, avoid gendered words such as man or woman.",
+    "nativeImpressionTraits should be 3-5 concise traits a native Chinese person may perceive. rejectedStyles should mention styles intentionally avoided. callNameSuggestions should include natural short forms like 小 + given-name character or 阿 + given-name character. suitableFor should include realistic contexts such as Business, WeChat, LinkedIn, Studying in China, Daily conversations.",
     "For free mode, stylePicks and prompts may be omitted. For paid mode, include stylePicks and prompts.",
     `Input: ${JSON.stringify(input)}`,
   ].join("\n");
@@ -148,6 +156,12 @@ function normalizeNameIdea(name: z.infer<typeof nameIdeaSchema>): NameIdea {
     overallConfidence: clampScore(name.overallConfidence),
     nativeImpression: normalizeNativeImpression(name.nativeImpression, style),
     riskWarning: normalizeRiskWarning(name.riskWarning),
+    consultantNote: name.consultantNote,
+    nativeImpressionTraits: cleanList(name.nativeImpressionTraits),
+    rejectedStyles: cleanList(name.rejectedStyles),
+    callNameSuggestions: cleanList(name.callNameSuggestions),
+    suitableFor: cleanList(name.suitableFor),
+    naturalnessConfidence: clampPercent(name.naturalnessConfidence),
   };
 }
 
@@ -169,6 +183,15 @@ function qualityScore(name: NameIdea) {
 function clampScore(value: number | undefined) {
   if (!value || Number.isNaN(value)) return undefined;
   return Math.max(1, Math.min(10, Math.round(value)));
+}
+
+function clampPercent(value: number | undefined) {
+  if (!value || Number.isNaN(value)) return undefined;
+  return Math.max(1, Math.min(100, Math.round(value)));
+}
+
+function cleanList(values: string[] | undefined) {
+  return values?.map((value) => value.trim()).filter(Boolean).slice(0, 6);
 }
 
 function normalizeStyle(value: string): NameIdea["style"] {

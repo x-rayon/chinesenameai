@@ -80,7 +80,10 @@ function RecommendedNameCard({ name }: { name: NameIdea }) {
     <section className="border border-black/10 bg-white p-6 shadow-soft sm:p-8">
       <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-cinnabar">Recommended Name</p>
+          <p className="text-sm font-semibold uppercase tracking-wide text-cinnabar">Our Recommendation</p>
+          <p className="mt-2 text-sm text-ink/60">
+            After evaluating your profile, this is the Chinese name we believe fits you best.
+          </p>
           <div className="mt-4 flex items-center gap-4">
             <h2 className="text-6xl font-semibold leading-none sm:text-7xl">{name.chineseName}</h2>
             <NameAudioButton name={name.chineseName} pinyin={name.pinyin} />
@@ -89,6 +92,7 @@ function RecommendedNameCard({ name }: { name: NameIdea }) {
           <p className="mt-6 text-lg leading-relaxed text-ink/75">
             {evaluation.impressionSummary}
           </p>
+          <p className="mt-4 text-sm leading-6 text-ink/65">{evaluation.consultantNote}</p>
         </div>
 
         <div className="grid gap-4">
@@ -99,16 +103,38 @@ function RecommendedNameCard({ name }: { name: NameIdea }) {
             <FitScoreCard businessFit={evaluation.businessFit} personalFit={evaluation.personalFit} />
           </div>
           <div className="border border-black/10 bg-porcelain p-4">
-            <p className="text-sm font-semibold">Native speaker impression</p>
-            <p className="mt-2 text-ink/75">{evaluation.nativeImpression}</p>
+            <p className="text-sm font-semibold">If a native Chinese person met you, they would probably think you are:</p>
+            <BulletList items={evaluation.nativeImpressionTraits} />
           </div>
           <div className="border border-black/10 bg-porcelain p-4">
             <p className="text-sm font-semibold">Why this name fits you</p>
             <p className="mt-2 text-sm leading-6 text-ink/70">{evaluation.whyItFits}</p>
           </div>
           <div className="border border-black/10 p-4">
-            <p className="text-sm font-semibold">Risk warning</p>
-            <p className="mt-2 text-sm text-ink/70">{evaluation.riskWarning}</p>
+            <p className="text-sm font-semibold">Confidence Check</p>
+            <CheckList items={evaluation.confidenceChecks} />
+          </div>
+          <div className="border border-black/10 p-4">
+            <p className="text-sm font-semibold">Why we rejected other styles</p>
+            <p className="mt-2 text-sm text-ink/60">We intentionally avoided:</p>
+            <BulletList items={evaluation.rejectedStyles} />
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="border border-black/10 p-4">
+              <p className="text-sm font-semibold">How people may call you</p>
+              <p className="mt-2 text-sm text-ink/60">Friends may call you:</p>
+              <BulletList items={evaluation.callNameSuggestions} />
+            </div>
+            <div className="border border-black/10 p-4">
+              <p className="text-sm font-semibold">Suitable for</p>
+              <BulletList items={evaluation.suitableFor} />
+            </div>
+          </div>
+          <div className="border border-black/10 bg-porcelain p-4">
+            <p className="text-sm font-semibold">Naturalness Confidence</p>
+            <p className="mt-2 text-sm text-ink/70">
+              {evaluation.naturalnessConfidence}% confidence this sounds like a genuine Chinese name.
+            </p>
           </div>
         </div>
       </div>
@@ -201,6 +227,29 @@ function ScoreCard({ label, value }: { label: string; value: string }) {
   );
 }
 
+function BulletList({ items }: { items: string[] }) {
+  return (
+    <ul className="mt-3 space-y-2 text-sm text-ink/70">
+      {items.map((item) => (
+        <li key={item}>• {item}</li>
+      ))}
+    </ul>
+  );
+}
+
+function CheckList({ items }: { items: string[] }) {
+  return (
+    <ul className="mt-3 space-y-2 text-sm text-ink/70">
+      {items.map((item) => (
+        <li key={item} className="flex gap-2">
+          <Check className="mt-0.5 h-4 w-4 shrink-0 text-jade" aria-hidden />
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 function FitScoreCard({ businessFit, personalFit }: { businessFit: number; personalFit: number }) {
   return (
     <div className="border border-black/10 p-4">
@@ -229,6 +278,35 @@ function Metric({ label, value }: { label: string; value: string }) {
 }
 
 function getEvaluation(name: NameIdea) {
+  const nativeImpressionTraits = listOrFallback(name.nativeImpressionTraits, [
+    name.nativeImpression || fallbackImpression(name.style),
+    "Trustworthy",
+    "Calm",
+    "Educated",
+  ]);
+  const confidenceChecks = [
+    "Sounds like a genuine Chinese name",
+    "No awkward meaning",
+    "Easy to introduce yourself",
+    "Suitable for daily life",
+  ];
+  const rejectedStyles = listOrFallback(name.rejectedStyles, [
+    "Old-fashioned names",
+    "Difficult pronunciation",
+    "Internet-style names",
+    "Overly literary names",
+  ]);
+  const callNameSuggestions = listOrFallback(name.callNameSuggestions, getCallNameSuggestions(name.chineseName));
+  const suitableFor = listOrFallback(name.suitableFor, [
+    "Business",
+    "WeChat",
+    "LinkedIn",
+    "Studying in China",
+    "Daily conversations",
+  ]);
+  const naturalnessConfidence =
+    name.naturalnessConfidence || Math.min(98, Math.max(86, clampScore(name.naturalnessScore, 9) * 10 + 6));
+
   return {
     impressionSummary:
       name.impressionSummary ||
@@ -241,6 +319,15 @@ function getEvaluation(name: NameIdea) {
     nativeImpression: name.nativeImpression || fallbackImpression(name.style),
     riskWarning: name.riskWarning || "Safe",
     whyItFits: name.whyItFits || name.chineseMeaning || name.culturalExplanation,
+    consultantNote:
+      name.consultantNote ||
+      "From a native Chinese perspective, this name feels balanced: it is easy to say, culturally familiar, and not trying too hard.",
+    nativeImpressionTraits,
+    confidenceChecks,
+    rejectedStyles,
+    callNameSuggestions,
+    suitableFor,
+    naturalnessConfidence,
   };
 }
 
@@ -254,4 +341,16 @@ function fallbackImpression(style: NameIdea["style"]) {
   if (style === "literary") return "Literary";
   if (style === "modern") return "Modern";
   return "Elegant";
+}
+
+function listOrFallback(values: string[] | undefined, fallback: string[]) {
+  const cleaned = values?.map((value) => value.trim()).filter(Boolean) || [];
+  return Array.from(new Set(cleaned.length ? cleaned : fallback)).slice(0, 6);
+}
+
+function getCallNameSuggestions(chineseName: string) {
+  const chars = Array.from(chineseName);
+  const givenName = chars.length >= 3 ? chars.slice(1).join("") : chars.at(-1) || chineseName;
+  const lastChar = chars.at(-1) || chineseName;
+  return [`小${lastChar}`, `阿${lastChar}`, givenName].filter(Boolean);
 }

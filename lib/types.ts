@@ -29,6 +29,12 @@ export type NameIdea = {
   nativeImpression?: "Elegant" | "Professional" | "Friendly" | "Literary" | "Modern";
   riskWarning?: "Safe" | "Slightly formal" | "Too literary" | "Old-fashioned";
   whyItFits?: string;
+  consultantNote?: string;
+  nativeImpressionTraits?: string[];
+  rejectedStyles?: string[];
+  callNameSuggestions?: string[];
+  suitableFor?: string[];
+  naturalnessConfidence?: number;
 };
 
 export type SignaturePrompts = {
