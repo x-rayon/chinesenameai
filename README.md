@@ -7,7 +7,7 @@ ChineseNameAI is a deployable SaaS built with Next.js 15, TypeScript, Tailwind C
 - Magic-link login with Supabase Auth
 - Free generation: 3 Chinese names, maximum 3 free reports per user per day
 - Paid one-time $4.99 unlock through Stripe Checkout
-- Full paid report: 30 names, pinyin, English explanations, Chinese meanings, cultural notes, scenario guidance, style picks, signature prompt, and seal prompt
+- Full paid report: top 10 carefully selected Chinese names, pinyin, English explanations, Chinese meanings, cultural notes, native-style evaluation, style picks, signature prompt, and seal prompt
 - User dashboard and report history
 - Mobile responsive App Router UI
 - SEO metadata and Vercel-ready configuration

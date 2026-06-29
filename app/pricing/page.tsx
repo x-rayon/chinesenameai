@@ -4,7 +4,7 @@ import { Check, CreditCard } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Start free or unlock a complete Chinese Name Report with native-style evaluation and cultural context.",
+  description: "Start free or unlock top 10 carefully selected Chinese names with native-style evaluation.",
 };
 
 export default function PricingPage() {
@@ -13,8 +13,8 @@ export default function PricingPage() {
       <p className="text-sm font-semibold uppercase tracking-wide text-cinnabar">Pricing</p>
       <h1 className="mt-2 text-4xl font-semibold">Choose a Chinese name with confidence.</h1>
       <p className="mt-3 max-w-2xl text-ink/65">
-        Start with a free sample, then unlock a complete Chinese Name Report when you want native-style evaluation,
-        pronunciation guidance, and cultural fit.
+        Start with a free sample, then unlock 10 expert-selected Chinese names ranked by naturalness, suitability,
+        cultural quality, and real-world usability.
       </p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         <Plan
@@ -25,17 +25,19 @@ export default function PricingPage() {
           items={["3 Chinese name suggestions", "Pinyin", "Short meaning", "Basic cultural notes"]}
         />
         <form action="/api/checkout" method="POST" className="border-2 border-cinnabar bg-white p-6 shadow-soft">
-          <h2 className="text-2xl font-semibold">Complete Chinese Name Report</h2>
+          <h2 className="text-2xl font-semibold">Top 10 Carefully Selected Chinese Names</h2>
           <p className="mt-2 text-4xl font-semibold">$4.99</p>
+          <p className="mt-3 text-sm text-ink/60">
+            Quality over quantity. We rank a larger candidate set and show only the strongest names.
+          </p>
           <ul className="mt-6 space-y-3 text-sm text-ink/75">
             {[
-              "Complete Chinese Name Report",
-              "30 personalized name suggestions",
+              "Top 10 carefully selected Chinese names",
+              "Ranked by naturalness and suitability",
               "Native-style evaluation",
-              "Naturalness and modernness scores",
-              "Cultural meaning and personality fit",
+              "Cultural meaning",
+              "Personality matching",
               "Pronunciation guide",
-              "Business / personal / academic suitability",
               "Signature and seal prompts",
             ].map((item) => (
               <li key={item} className="flex gap-2">

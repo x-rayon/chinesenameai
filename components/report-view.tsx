@@ -24,16 +24,22 @@ export function ReportView({ report }: { report: NameReport }) {
         <section>
           <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-wide text-cinnabar">Alternative Names</p>
-              <h2 className="mt-1 text-2xl font-semibold">Other names worth considering</h2>
+              <p className="text-sm font-semibold uppercase tracking-wide text-cinnabar">Recommended Alternatives</p>
+              <h2 className="mt-1 text-2xl font-semibold">Carefully selected alternatives</h2>
+              <p className="mt-2 max-w-2xl text-sm text-ink/60">
+                These names were ranked as the strongest alternatives for your profile.
+              </p>
             </div>
-            <p className="text-sm text-ink/55">{alternatives.length} alternatives</p>
+            <p className="text-sm text-ink/55">
+              {report.input.mode === "paid" ? "9 carefully selected names" : "2 recommended alternatives"}
+            </p>
           </div>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
             {alternatives.map((name, index) => (
               <AlternativeNameCard key={`${name.chineseName}-${index}`} name={name} />
             ))}
           </div>
+          {report.input.mode === "paid" ? <WhyOnlyTen /> : null}
         </section>
       ) : null}
 
@@ -142,7 +148,7 @@ function AlternativeNameCard({ name }: { name: NameIdea }) {
 
 function UpgradeReportCard() {
   const items = [
-    "See 30 personalized names",
+    "See top 10 carefully selected Chinese names",
     "Get native-style evaluation",
     "Understand whether the name sounds natural, modern, and safe",
     "Get signature and Chinese seal prompts",
@@ -171,6 +177,18 @@ function UpgradeReportCard() {
         </form>
       </div>
     </section>
+  );
+}
+
+function WhyOnlyTen() {
+  return (
+    <div className="mt-5 border border-black/10 bg-white p-5">
+      <p className="text-sm font-semibold">Why only 10?</p>
+      <p className="mt-2 text-sm leading-6 text-ink/65">
+        Instead of overwhelming you with dozens of random suggestions, we carefully rank and present the ten strongest
+        Chinese names based on naturalness, personality fit, and real-world usability.
+      </p>
+    </div>
   );
 }
 

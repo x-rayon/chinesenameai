@@ -49,7 +49,7 @@ export function GenerateForm({ isPaid }: { isPaid: boolean }) {
               disabled={loading}
             >
               Full report
-              <span className="mt-1 block text-xs font-normal opacity-75">30 names plus cultural report</span>
+              <span className="mt-1 block text-xs font-normal opacity-75">Top 10 carefully selected names</span>
             </button>
             <button
               type="button"
@@ -112,7 +112,7 @@ export function GenerateForm({ isPaid }: { isPaid: boolean }) {
         {loading ? (
           <p className="mt-4 max-w-xl text-sm text-ink/60" aria-live="polite">
             {generationMode === "paid"
-              ? "Creating a complete 30-name cultural report. This can take 20-60 seconds."
+              ? "Ranking candidates and selecting the strongest 10 names. This can take 20-60 seconds."
               : "Creating 3 Chinese name ideas. This usually takes a few seconds."}
           </p>
         ) : null}
@@ -124,10 +124,10 @@ export function GenerateForm({ isPaid }: { isPaid: boolean }) {
         </h2>
         <p className="mt-2 text-sm text-ink/70">
           {isPaid && generationMode === "paid"
-            ? "Your paid report includes 30 names, cultural analysis, style picks, signature prompts, and seal prompts."
+            ? "Your paid report includes top 10 carefully selected names, cultural analysis, style picks, signature prompts, and seal prompts."
             : isPaid
               ? "Quick sample mode creates 3 names when you want a faster preview."
-            : "Free users can generate 3 names per day. Upgrade for a complete 30-name cultural report."}
+            : "Free users can generate top 3 names per day. Upgrade for top 10 carefully selected Chinese names."}
         </p>
       </aside>
     </div>

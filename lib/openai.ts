@@ -20,6 +20,9 @@ const nameIdeaSchema = z.object({
   pronunciationDifficulty: z.enum(["Easy", "Medium", "Hard"]).optional(),
   businessFit: z.number().min(1).max(10).optional(),
   personalFit: z.number().min(1).max(10).optional(),
+  suitabilityScore: z.number().min(1).max(10).optional(),
+  culturalQualityScore: z.number().min(1).max(10).optional(),
+  overallConfidence: z.number().min(1).max(10).optional(),
   nativeImpression: z.enum(["Elegant", "Professional", "Friendly", "Literary", "Modern"]).optional(),
   riskWarning: z.enum(["Safe", "Slightly formal", "Too literary", "Old-fashioned"]).optional(),
   whyItFits: z.string().optional(),
@@ -44,10 +47,11 @@ const reportSchema = z.object({
 });
 
 export async function generateNameReport(input: NameRequest): Promise<NameReport> {
-  const count = input.mode === "paid" ? 30 : 3;
+  const candidateCount = input.mode === "paid" ? 30 : 3;
+  const displayCount = input.mode === "paid" ? 10 : 3;
 
   if ((process.env.AI_PROVIDER || "openai").toLowerCase() === "gemini") {
-    return generateGeminiNameReport(input, count);
+    return generateGeminiNameReport(input, candidateCount, displayCount);
   }
 
   if (!process.env.OPENAI_API_KEY) {
@@ -56,10 +60,10 @@ export async function generateNameReport(input: NameRequest): Promise<NameReport
 
   const prompt = [
     "You are ChineseNameAI, a careful bilingual naming consultant.",
-    `Generate exactly ${count} suitable Chinese full names for a foreign user.`,
+    `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown.",
-    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, nativeImpression, riskWarning, and whyItFits.",
-    "Scores must be realistic 1-10 integers. pronunciationDifficulty must be Easy, Medium, or Hard. nativeImpression must be Elegant, Professional, Friendly, Literary, or Modern. riskWarning must be Safe, Slightly formal, Too literary, or Old-fashioned.",
+    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, suitabilityScore, culturalQualityScore, overallConfidence, nativeImpression, riskWarning, and whyItFits.",
+    "Scores must be realistic 1-10 integers. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence. pronunciationDifficulty must be Easy, Medium, or Hard. nativeImpression must be Elegant, Professional, Friendly, Literary, or Modern. riskWarning must be Safe, Slightly formal, Too literary, or Old-fashioned.",
     "Use plain, consumer-friendly English. Avoid archaic or academic words such as sagacious. Match the user's gender; if gender is neutral, avoid gendered words such as man or woman.",
     "For paid mode include stylePicks and prompts with Chinese signature and seal image-generation prompts.",
     `Input: ${JSON.stringify(input)}`,
@@ -83,24 +87,24 @@ export async function generateNameReport(input: NameRequest): Promise<NameReport
 
   return {
     input,
-    names: parsed.names.slice(0, count),
+    names: rankNameIdeas(parsed.names).slice(0, displayCount),
     stylePicks: parsed.stylePicks,
     prompts: parsed.prompts,
   };
 }
 
-async function generateGeminiNameReport(input: NameRequest, count: number): Promise<NameReport> {
+async function generateGeminiNameReport(input: NameRequest, candidateCount: number, displayCount: number): Promise<NameReport> {
   if (!process.env.GEMINI_API_KEY) {
     throw new Error("Gemini is not configured.");
   }
 
   const prompt = [
     "You are ChineseNameAI, a careful bilingual naming consultant.",
-    `Generate exactly ${count} suitable Chinese full names for a foreign user.`,
+    `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown, no code fences.",
-    "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\"}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
-    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, nativeImpression, riskWarning, and whyItFits.",
-    "Scores must be realistic 1-10 integers based on how a native Chinese speaker would perceive the name.",
+    "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"suitabilityScore\":8,\"culturalQualityScore\":9,\"overallConfidence\":9,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\"}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
+    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, suitabilityScore, culturalQualityScore, overallConfidence, nativeImpression, riskWarning, and whyItFits.",
+    "Scores must be realistic 1-10 integers based on how a native Chinese speaker would perceive the name. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence.",
     "Use plain, consumer-friendly English. Avoid archaic or academic words such as sagacious. Match the user's gender; if gender is neutral, avoid gendered words such as man or woman.",
     "For free mode, stylePicks and prompts may be omitted. For paid mode, include stylePicks and prompts.",
     `Input: ${JSON.stringify(input)}`,
@@ -121,10 +125,25 @@ async function generateGeminiNameReport(input: NameRequest, count: number): Prom
 
   return {
     input,
-    names: parsed.names.slice(0, count),
+    names: rankNameIdeas(parsed.names).slice(0, displayCount),
     stylePicks: parsed.stylePicks,
     prompts: parsed.prompts,
   };
+}
+
+function rankNameIdeas(names: z.infer<typeof nameIdeaSchema>[]) {
+  return [...names].sort((a, b) => qualityScore(b) - qualityScore(a));
+}
+
+function qualityScore(name: z.infer<typeof nameIdeaSchema>) {
+  const suitability = name.suitabilityScore ?? Math.max(name.businessFit ?? 8, name.personalFit ?? 8);
+  return (
+    (name.naturalnessScore ?? 8) * 0.3 +
+    (name.modernnessScore ?? 8) * 0.18 +
+    suitability * 0.22 +
+    (name.culturalQualityScore ?? 8) * 0.16 +
+    (name.overallConfidence ?? 8) * 0.14
+  );
 }
 
 async function postGeminiGenerateContent(

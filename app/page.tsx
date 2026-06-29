@@ -4,7 +4,7 @@ import type { LucideIcon } from "lucide-react";
 
 const features: { title: string; copy: string; Icon: LucideIcon }[] = [
   { title: "Native-style advice", copy: "Evaluate whether a name sounds natural, modern, and safe.", Icon: CheckCircle2 },
-  { title: "Complete report", copy: "Unlock 30 personalized names with scoring, context, and style guidance.", Icon: ScrollText },
+  { title: "Quality over quantity", copy: "Unlock 10 expert-selected names ranked from a larger candidate set.", Icon: ScrollText },
   { title: "Pronunciation ready", copy: "Every name includes pinyin, meaning, and a Chinese pronunciation button.", Icon: Languages },
 ];
 

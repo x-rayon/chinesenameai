@@ -23,6 +23,9 @@ export type NameIdea = {
   pronunciationDifficulty?: "Easy" | "Medium" | "Hard";
   businessFit?: number;
   personalFit?: number;
+  suitabilityScore?: number;
+  culturalQualityScore?: number;
+  overallConfidence?: number;
   nativeImpression?: "Elegant" | "Professional" | "Friendly" | "Literary" | "Modern";
   riskWarning?: "Safe" | "Slightly formal" | "Too literary" | "Old-fashioned";
   whyItFits?: string;
