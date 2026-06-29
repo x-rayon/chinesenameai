@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "description": "First-pass preferred Chinese given-name characters for modern, natural names. Scores use a 1-10 scale unless otherwise noted.",
+  "characters": [
+    {
+      "character": "安",
+      "meaning": "peace, calm, safety",
+      "genderTendency": "neutral",
+      "modernness": 9,
+      "businessSuitability": 9,
+      "pronunciationDifficulty": "Easy",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "然",
+      "meaning": "natural, composed, as things are",
+      "genderTendency": "neutral",
+      "modernness": 9,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "明",
+      "meaning": "bright, clear, intelligent",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 9,
+      "pronunciationDifficulty": "Easy",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "睿",
+      "meaning": "wise, perceptive, intelligent",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 9,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "文",
+      "meaning": "culture, learning, refinement",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Easy",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "清",
+      "meaning": "clear, pure, calm",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "宁",
+      "meaning": "peaceful, tranquil, settled",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "嘉",
+      "meaning": "excellent, admirable, auspicious",
+      "genderTendency": "neutral",
+      "modernness": 9,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "乐",
+      "meaning": "joy, optimism, ease",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 7,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "宇",
+      "meaning": "space, bearing, broad presence",
+      "genderTendency": "male",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "轩",
+      "meaning": "elegant bearing, high-spirited presence",
+      "genderTendency": "male",
+      "modernness": 8,
+      "businessSuitability": 7,
+      "pronunciationDifficulty": "Hard",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "辰",
+      "meaning": "time, stars, promising moment",
+      "genderTendency": "neutral",
+      "modernness": 9,
+      "businessSuitability": 7,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "泽",
+      "meaning": "grace, benefit, nourishing influence",
+      "genderTendency": "male",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Easy",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "远",
+      "meaning": "far-reaching, long-term vision",
+      "genderTendency": "male",
+      "modernness": 8,
+      "businessSuitability": 9,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "航",
+      "meaning": "navigation, direction, ambition",
+      "genderTendency": "male",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "毅",
+      "meaning": "perseverance, resolve, inner strength",
+      "genderTendency": "male",
+      "modernness": 7,
+      "businessSuitability": 9,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "诚",
+      "meaning": "honesty, sincerity, integrity",
+      "genderTendency": "male",
+      "modernness": 8,
+      "businessSuitability": 10,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "彦",
+      "meaning": "talented, cultivated, capable",
+      "genderTendency": "male",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "雅",
+      "meaning": "elegant, refined, graceful",
+      "genderTendency": "female",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Easy",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "慧",
+      "meaning": "wisdom, intelligence, insight",
+      "genderTendency": "female",
+      "modernness": 7,
+      "businessSuitability": 9,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "欣",
+      "meaning": "joyful, pleased, positive",
+      "genderTendency": "female",
+      "modernness": 8,
+      "businessSuitability": 7,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "怡",
+      "meaning": "pleasant, calm, content",
+      "genderTendency": "female",
+      "modernness": 8,
+      "businessSuitability": 7,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "妍",
+      "meaning": "beautiful, graceful, pleasant",
+      "genderTendency": "female",
+      "modernness": 8,
+      "businessSuitability": 6,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "涵",
+      "meaning": "depth, tolerance, self-cultivation",
+      "genderTendency": "female",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "若",
+      "meaning": "gentle, composed, graceful",
+      "genderTendency": "female",
+      "modernness": 8,
+      "businessSuitability": 7,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "初",
+      "meaning": "beginning, freshness, sincerity",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 6,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "知",
+      "meaning": "knowledge, understanding, awareness",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "诺",
+      "meaning": "promise, trust, reliability",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 8,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    },
+    {
+      "character": "一",
+      "meaning": "focus, unity, simplicity",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 7,
+      "pronunciationDifficulty": "Easy",
+      "usageFrequency": "high"
+    },
+    {
+      "character": "禾",
+      "meaning": "growth, harvest, natural balance",
+      "genderTendency": "neutral",
+      "modernness": 8,
+      "businessSuitability": 6,
+      "pronunciationDifficulty": "Medium",
+      "usageFrequency": "medium"
+    }
+  ]
+}

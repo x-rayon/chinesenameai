@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "description": "First-pass forbidden or discouraged naming knowledge for ChineseNameAI. These rules are used to avoid names that sound awkward, outdated, risky, or unnatural.",
+  "forbiddenCharacters": [
+    {
+      "character": "病",
+      "reason": "Directly associated with illness.",
+      "severity": "block"
+    },
+    {
+      "character": "死",
+      "reason": "Directly associated with death.",
+      "severity": "block"
+    },
+    {
+      "character": "亡",
+      "reason": "Associated with death, loss, and disappearance.",
+      "severity": "block"
+    },
+    {
+      "character": "灾",
+      "reason": "Associated with disaster.",
+      "severity": "block"
+    },
+    {
+      "character": "祸",
+      "reason": "Associated with misfortune and trouble.",
+      "severity": "block"
+    },
+    {
+      "character": "丑",
+      "reason": "Means ugly or unattractive in common usage.",
+      "severity": "block"
+    },
+    {
+      "character": "傻",
+      "reason": "Means foolish or silly in a negative way.",
+      "severity": "block"
+    },
+    {
+      "character": "笨",
+      "reason": "Means stupid or clumsy.",
+      "severity": "block"
+    },
+    {
+      "character": "坏",
+      "reason": "Means bad or broken.",
+      "severity": "block"
+    },
+    {
+      "character": "毒",
+      "reason": "Associated with poison and harm.",
+      "severity": "block"
+    },
+    {
+      "character": "魔",
+      "reason": "Associated with demons or dark fantasy; unsuitable for a real personal name.",
+      "severity": "block"
+    },
+    {
+      "character": "鬼",
+      "reason": "Associated with ghosts; usually awkward in personal names.",
+      "severity": "block"
+    },
+    {
+      "character": "王",
+      "reason": "Usable as a surname, but risky as a given-name character because it can sound boastful or strange.",
+      "severity": "discourage"
+    },
+    {
+      "character": "皇",
+      "reason": "Imperial and overly grandiose for modern personal names.",
+      "severity": "discourage"
+    },
+    {
+      "character": "帝",
+      "reason": "Imperial, arrogant, or fantasy-coded in modern naming.",
+      "severity": "discourage"
+    },
+    {
+      "character": "霸",
+      "reason": "Aggressive and domination-oriented; often feels like a game username.",
+      "severity": "discourage"
+    },
+    {
+      "character": "神",
+      "reason": "Religious or boastful depending on context; rarely natural in modern names.",
+      "severity": "discourage"
+    },
+    {
+      "character": "仙",
+      "reason": "Can feel fantasy-like, overly delicate, or internet-coded.",
+      "severity": "discourage"
+    },
+    {
+      "character": "富",
+      "reason": "Directly means wealth; can sound old-fashioned or blunt.",
+      "severity": "discourage"
+    },
+    {
+      "character": "贵",
+      "reason": "Directly means noble or expensive; can sound old-fashioned or status-seeking.",
+      "severity": "discourage"
+    },
+    {
+      "character": "财",
+      "reason": "Directly associated with money; feels commercial rather than personal.",
+      "severity": "discourage"
+    },
+    {
+      "character": "艳",
+      "reason": "Can sound dated or overly flashy in many modern names.",
+      "severity": "discourage"
+    },
+    {
+      "character": "翠",
+      "reason": "Often feels old-fashioned in contemporary given names.",
+      "severity": "discourage"
+    },
+    {
+      "character": "娟",
+      "reason": "Common in older generations; may feel dated for a modern user.",
+      "severity": "discourage"
+    },
+    {
+      "character": "芳",
+      "reason": "Can feel dated unless carefully paired.",
+      "severity": "discourage"
+    },
+    {
+      "character": "强",
+      "reason": "Usable but blunt; can sound older or overly forceful if not paired carefully.",
+      "severity": "discourage"
+    }
+  ],
+  "outdatedNames": [
+    {
+      "name": "建国",
+      "reason": "Strongly associated with an older historical naming style.",
+      "severity": "discourage"
+    },
+    {
+      "name": "国庆",
+      "reason": "Feels dated and tied to a political-era naming convention.",
+      "severity": "discourage"
+    },
+    {
+      "name": "援朝",
+      "reason": "Historical and political association; not suitable for a modern foreign user.",
+      "severity": "block"
+    },
+    {
+      "name": "卫东",
+      "reason": "Older political-era style.",
+      "severity": "discourage"
+    },
+    {
+      "name": "红卫",
+      "reason": "Political and historical association; high-risk.",
+      "severity": "block"
+    },
+    {
+      "name": "秀英",
+      "reason": "Traditional and common among older generations; may feel dated.",
+      "severity": "discourage"
+    },
+    {
+      "name": "桂花",
+      "reason": "Can sound rural or old-fashioned for a modern adult user.",
+      "severity": "discourage"
+    },
+    {
+      "name": "翠花",
+      "reason": "Often used jokingly or as an old-fashioned stereotype.",
+      "severity": "block"
+    },
+    {
+      "name": "淑芬",
+      "reason": "Older-generation feminine name; not ideal for modern positioning.",
+      "severity": "discourage"
+    },
+    {
+      "name": "小红",
+      "reason": "Too generic and textbook-like; not suitable as a serious recommendation.",
+      "severity": "discourage"
+    },
+    {
+      "name": "小明",
+      "reason": "Classic textbook placeholder name; acceptable only as a nickname example, not a recommendation.",
+      "severity": "discourage"
+    },
+    {
+      "name": "大壮",
+      "reason": "Rural, cartoonish, or nickname-like; not suitable for a polished Chinese name.",
+      "severity": "block"
+    },
+    {
+      "name": "铁柱",
+      "reason": "Strongly rustic and comedic in modern context.",
+      "severity": "block"
+    },
+    {
+      "name": "狗蛋",
+      "reason": "Comic/rustic nickname, not a proper modern name.",
+      "severity": "block"
+    },
+    {
+      "name": "招财",
+      "reason": "Sounds like a pet name or fortune phrase rather than a real personal name.",
+      "severity": "block"
+    }
+  ],
+  "discouragedPatterns": [
+    {
+      "pattern": "literal wealth or success words",
+      "examples": ["发财", "富贵", "成功"],
+      "reason": "Too blunt, commercial, or old-fashioned."
+    },
+    {
+      "pattern": "imperial or dominance words",
+      "examples": ["皇", "帝", "霸", "王者"],
+      "reason": "Can sound arrogant, fantasy-coded, or like an online handle."
+    },
+    {
+      "pattern": "textbook placeholder names",
+      "examples": ["小明", "小红", "张三", "李四"],
+      "reason": "Feels generic and unserious."
+    },
+    {
+      "pattern": "overly transliterated names",
+      "examples": ["迈克尔安德森", "艾米丽史密斯"],
+      "reason": "Reads like a foreign-name transcription, not a real Chinese name."
+    },
+    {
+      "pattern": "internet-style or fantasy-style names",
+      "examples": ["星辰大海", "龙傲天", "梦幻天使"],
+      "reason": "Sounds like a username, fiction character, or meme rather than a real person."
+    }
+  ]
+}
