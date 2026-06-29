@@ -2,9 +2,10 @@ import { execFile } from "node:child_process";
 import { request as httpsRequest } from "node:https";
 import { promisify } from "node:util";
 import { z } from "zod";
-import type { NameReport, NameRequest } from "@/lib/types";
+import type { NameIdea, NameReport, NameRequest } from "@/lib/types";
 
 const execFileAsync = promisify(execFile);
+const scoreSchema = z.coerce.number().min(1).max(10).optional();
 
 const nameIdeaSchema = z.object({
   chineseName: z.string(),
@@ -13,18 +14,18 @@ const nameIdeaSchema = z.object({
   chineseMeaning: z.string(),
   culturalExplanation: z.string(),
   suitableScenarios: z.array(z.string()).min(1),
-  style: z.enum(["business", "literary", "modern", "classic"]),
+  style: z.string(),
   impressionSummary: z.string().optional(),
-  naturalnessScore: z.number().min(1).max(10).optional(),
-  modernnessScore: z.number().min(1).max(10).optional(),
-  pronunciationDifficulty: z.enum(["Easy", "Medium", "Hard"]).optional(),
-  businessFit: z.number().min(1).max(10).optional(),
-  personalFit: z.number().min(1).max(10).optional(),
-  suitabilityScore: z.number().min(1).max(10).optional(),
-  culturalQualityScore: z.number().min(1).max(10).optional(),
-  overallConfidence: z.number().min(1).max(10).optional(),
-  nativeImpression: z.enum(["Elegant", "Professional", "Friendly", "Literary", "Modern"]).optional(),
-  riskWarning: z.enum(["Safe", "Slightly formal", "Too literary", "Old-fashioned"]).optional(),
+  naturalnessScore: scoreSchema,
+  modernnessScore: scoreSchema,
+  pronunciationDifficulty: z.string().optional(),
+  businessFit: scoreSchema,
+  personalFit: scoreSchema,
+  suitabilityScore: scoreSchema,
+  culturalQualityScore: scoreSchema,
+  overallConfidence: scoreSchema,
+  nativeImpression: z.string().optional(),
+  riskWarning: z.string().optional(),
   whyItFits: z.string().optional(),
 });
 
@@ -87,7 +88,7 @@ export async function generateNameReport(input: NameRequest): Promise<NameReport
 
   return {
     input,
-    names: rankNameIdeas(parsed.names).slice(0, displayCount),
+    names: rankNameIdeas(parsed.names.map(normalizeNameIdea)).slice(0, displayCount),
     stylePicks: parsed.stylePicks,
     prompts: parsed.prompts,
   };
@@ -125,17 +126,36 @@ async function generateGeminiNameReport(input: NameRequest, candidateCount: numb
 
   return {
     input,
-    names: rankNameIdeas(parsed.names).slice(0, displayCount),
+    names: rankNameIdeas(parsed.names.map(normalizeNameIdea)).slice(0, displayCount),
     stylePicks: parsed.stylePicks,
     prompts: parsed.prompts,
   };
 }
 
-function rankNameIdeas(names: z.infer<typeof nameIdeaSchema>[]) {
+function normalizeNameIdea(name: z.infer<typeof nameIdeaSchema>): NameIdea {
+  const style = normalizeStyle(name.style);
+
+  return {
+    ...name,
+    style,
+    naturalnessScore: clampScore(name.naturalnessScore),
+    modernnessScore: clampScore(name.modernnessScore),
+    pronunciationDifficulty: normalizePronunciationDifficulty(name.pronunciationDifficulty),
+    businessFit: clampScore(name.businessFit),
+    personalFit: clampScore(name.personalFit),
+    suitabilityScore: clampScore(name.suitabilityScore),
+    culturalQualityScore: clampScore(name.culturalQualityScore),
+    overallConfidence: clampScore(name.overallConfidence),
+    nativeImpression: normalizeNativeImpression(name.nativeImpression, style),
+    riskWarning: normalizeRiskWarning(name.riskWarning),
+  };
+}
+
+function rankNameIdeas(names: NameIdea[]) {
   return [...names].sort((a, b) => qualityScore(b) - qualityScore(a));
 }
 
-function qualityScore(name: z.infer<typeof nameIdeaSchema>) {
+function qualityScore(name: NameIdea) {
   const suitability = name.suitabilityScore ?? Math.max(name.businessFit ?? 8, name.personalFit ?? 8);
   return (
     (name.naturalnessScore ?? 8) * 0.3 +
@@ -144,6 +164,48 @@ function qualityScore(name: z.infer<typeof nameIdeaSchema>) {
     (name.culturalQualityScore ?? 8) * 0.16 +
     (name.overallConfidence ?? 8) * 0.14
   );
+}
+
+function clampScore(value: number | undefined) {
+  if (!value || Number.isNaN(value)) return undefined;
+  return Math.max(1, Math.min(10, Math.round(value)));
+}
+
+function normalizeStyle(value: string): NameIdea["style"] {
+  const normalized = value.toLowerCase();
+  if (normalized.includes("business") || normalized.includes("professional")) return "business";
+  if (normalized.includes("literary") || normalized.includes("poetic")) return "literary";
+  if (normalized.includes("modern")) return "modern";
+  return "classic";
+}
+
+function normalizePronunciationDifficulty(value?: string): NonNullable<NameIdea["pronunciationDifficulty"]> | undefined {
+  const normalized = value?.toLowerCase() || "";
+  if (!normalized) return undefined;
+  if (normalized.includes("hard") || normalized.includes("difficult")) return "Hard";
+  if (normalized.includes("medium") || normalized.includes("moderate")) return "Medium";
+  return "Easy";
+}
+
+function normalizeNativeImpression(value: string | undefined, style: NameIdea["style"]): NonNullable<NameIdea["nativeImpression"]> {
+  const normalized = value?.toLowerCase() || "";
+  if (normalized.includes("professional") || normalized.includes("business") || normalized.includes("leader")) return "Professional";
+  if (normalized.includes("friendly") || normalized.includes("warm") || normalized.includes("approachable")) return "Friendly";
+  if (normalized.includes("literary") || normalized.includes("poetic") || normalized.includes("artistic")) return "Literary";
+  if (normalized.includes("modern") || normalized.includes("fresh")) return "Modern";
+  if (normalized.includes("elegant") || normalized.includes("refined")) return "Elegant";
+  if (style === "business") return "Professional";
+  if (style === "literary") return "Literary";
+  if (style === "modern") return "Modern";
+  return "Elegant";
+}
+
+function normalizeRiskWarning(value?: string): NonNullable<NameIdea["riskWarning"]> {
+  const normalized = value?.toLowerCase() || "";
+  if (normalized.includes("old")) return "Old-fashioned";
+  if (normalized.includes("literary") || normalized.includes("poetic")) return "Too literary";
+  if (normalized.includes("formal")) return "Slightly formal";
+  return "Safe";
 }
 
 async function postGeminiGenerateContent(

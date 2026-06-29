@@ -55,10 +55,8 @@ export async function POST(request: Request) {
   try {
     report = await generateNameReport({ ...body.data, mode });
   } catch (error) {
-    return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Name generation failed." },
-      { status: 500 },
-    );
+    console.error("Name generation failed", error);
+    return NextResponse.json({ error: "Name generation failed. Please try again in a moment." }, { status: 500 });
   }
 
   const { data, error } = await admin
