@@ -1,4 +1,4 @@
-import type { NameReport, NameRequest } from "@/lib/types";
+import type { NameIdea, NameReport, NameRequest } from "@/lib/types";
 import { reportSchema } from "../analysis/schema";
 import {
   DEFAULT_GEMINI_MODEL,
@@ -9,6 +9,7 @@ import {
 import { buildGeminiNameReportPrompt, buildOpenAINameReportPrompt } from "../prompts/name-report";
 import { rankNameIdeas } from "../ranking/rank-name-ideas";
 import { normalizeNameIdea } from "../reviewer/normalizer";
+import { reviewQualifiedNames } from "../reviewer/reviewer";
 import { cleanJsonText } from "../utils/json";
 import {
   extractGeminiOutputText,
@@ -47,7 +48,7 @@ export async function generateNameReport(input: NameRequest): Promise<NameReport
 
   return {
     input,
-    names: rankNameIdeas(parsed.names.map(normalizeNameIdea)).slice(0, displayCount),
+    names: selectQualifiedNames(input, parsed.names.map(normalizeNameIdea), displayCount),
     stylePicks: parsed.stylePicks,
     prompts: parsed.prompts,
   };
@@ -77,8 +78,12 @@ async function generateGeminiNameReport(
 
   return {
     input,
-    names: rankNameIdeas(parsed.names.map(normalizeNameIdea)).slice(0, displayCount),
+    names: selectQualifiedNames(input, parsed.names.map(normalizeNameIdea), displayCount),
     stylePicks: parsed.stylePicks,
     prompts: parsed.prompts,
   };
+}
+
+function selectQualifiedNames(input: NameRequest, names: NameIdea[], displayCount: number) {
+  return rankNameIdeas(reviewQualifiedNames(input, names)).slice(0, displayCount);
 }
