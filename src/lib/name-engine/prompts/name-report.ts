@@ -11,11 +11,15 @@ const consultantVoice =
 const humanReviewFields =
   "nativeImpressionTraits should be 3-5 concise traits a native Chinese person may perceive. rejectedStyles should mention styles intentionally avoided, such as old-fashioned names, difficult pronunciation, internet-style names, or overly literary names. callNameSuggestions should include natural short forms like Xiao + given-name character or A + given-name character. suitableFor should include realistic contexts such as Business, WeChat, LinkedIn, Studying in China, Daily conversations.";
 
+const internalCandidateInstructions =
+  "This is an internal candidate-generation task for the Name Engine. Do not write user-facing report copy and do not assume all candidates will be shown to the user. Create around 30 candidate names, then the engine will rank and display only the strongest names. Each candidate must clearly include: Reason (use whyItFits and consultantNote), Confidence (use overallConfidence and naturalnessConfidence), Style (use style), and Modernness (use modernnessScore).";
+
 export function buildOpenAINameReportPrompt(input: NameRequest, candidateCount: number) {
   return [
     "You are ChineseNameAI, a careful bilingual naming consultant.",
     buildModernRulesSection(),
-    `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
+    internalCandidateInstructions,
+    `Generate approximately ${candidateCount} suitable Chinese full-name candidates for a foreign user.`,
     "Return strict JSON only. No markdown.",
     requiredFields,
     "Scores must be realistic 1-10 integers. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence. pronunciationDifficulty must be Easy, Medium, or Hard. nativeImpression must be Elegant, Professional, Friendly, Literary, or Modern. riskWarning must be Safe, Slightly formal, Too literary, or Old-fashioned.",
@@ -30,7 +34,8 @@ export function buildGeminiNameReportPrompt(input: NameRequest, candidateCount: 
   return [
     "You are ChineseNameAI, a careful bilingual naming consultant.",
     buildModernRulesSection(),
-    `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
+    internalCandidateInstructions,
+    `Generate approximately ${candidateCount} suitable Chinese full-name candidates for a foreign user.`,
     "Return strict JSON only. No markdown, no code fences.",
     "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"suitabilityScore\":8,\"culturalQualityScore\":9,\"overallConfidence\":9,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\",\"consultantNote\":\"\",\"nativeImpressionTraits\":[\"Professional\",\"Trustworthy\",\"Calm\",\"Educated\"],\"rejectedStyles\":[\"Old-fashioned names\",\"Difficult pronunciation\",\"Internet-style names\",\"Overly literary names\"],\"callNameSuggestions\":[\"Xiao Ming\",\"A De\"],\"suitableFor\":[\"Business\",\"WeChat\",\"LinkedIn\",\"Studying in China\",\"Daily conversations\"],\"naturalnessConfidence\":98}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
     requiredFields,
