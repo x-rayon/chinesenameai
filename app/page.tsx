@@ -10,8 +10,8 @@ const features: { title: string; copy: string; Icon: LucideIcon }[] = [
 
 export default function HomePage() {
   return (
-    <div className="space-y-14">
-      <section className="grid min-h-[70vh] items-center gap-8 lg:grid-cols-[1.05fr_0.95fr]">
+    <div className="space-y-10">
+      <section className="grid min-h-[62vh] items-center gap-8 lg:grid-cols-[1.05fr_0.95fr]">
         <div>
           <p className="text-sm font-semibold uppercase tracking-wide text-cinnabar">Chinese Name Advisor</p>
           <h1 className="mt-4 max-w-3xl text-5xl font-semibold leading-tight sm:text-6xl">
@@ -37,7 +37,7 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-        <div className="border border-black/10 bg-white p-6 shadow-soft">
+        <div className="border border-black/10 bg-white p-6 shadow-soft lg:mt-6">
           <div className="border-b border-black/10 pb-4">
             <p className="text-sm text-ink/55">Recommended Name</p>
             <h2 className="mt-2 text-5xl font-semibold">林安然</h2>

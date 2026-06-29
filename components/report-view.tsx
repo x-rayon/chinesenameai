@@ -90,7 +90,7 @@ function RecommendedNameCard({ name }: { name: NameIdea }) {
             <ScoreCard label="Naturalness" value={`${evaluation.naturalnessScore}/10`} />
             <ScoreCard label="Modernness" value={`${evaluation.modernnessScore}/10`} />
             <ScoreCard label="Pronunciation difficulty" value={evaluation.pronunciationDifficulty} />
-            <ScoreCard label="Business / Personal fit" value={`${evaluation.businessFit}/10 / ${evaluation.personalFit}/10`} />
+            <FitScoreCard businessFit={evaluation.businessFit} personalFit={evaluation.personalFit} />
           </div>
           <div className="border border-black/10 bg-porcelain p-4">
             <p className="text-sm font-semibold">Native speaker impression</p>
@@ -179,6 +179,24 @@ function ScoreCard({ label, value }: { label: string; value: string }) {
     <div className="border border-black/10 p-4">
       <p className="text-xs uppercase tracking-wide text-ink/50">{label}</p>
       <p className="mt-2 text-2xl font-semibold">{value}</p>
+    </div>
+  );
+}
+
+function FitScoreCard({ businessFit, personalFit }: { businessFit: number; personalFit: number }) {
+  return (
+    <div className="border border-black/10 p-4">
+      <p className="text-xs uppercase tracking-wide text-ink/50">Business / Personal fit</p>
+      <div className="mt-2 grid grid-cols-2 gap-3">
+        <div>
+          <p className="text-xs text-ink/50">Business</p>
+          <p className="text-2xl font-semibold">{businessFit}/10</p>
+        </div>
+        <div>
+          <p className="text-xs text-ink/50">Personal</p>
+          <p className="text-2xl font-semibold">{personalFit}/10</p>
+        </div>
+      </div>
     </div>
   );
 }
