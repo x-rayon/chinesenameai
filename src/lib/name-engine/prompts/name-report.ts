@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import type { NameRequest } from "@/lib/types";
 
 const requiredFields =
@@ -12,6 +14,7 @@ const humanReviewFields =
 export function buildOpenAINameReportPrompt(input: NameRequest, candidateCount: number) {
   return [
     "You are ChineseNameAI, a careful bilingual naming consultant.",
+    buildModernRulesSection(),
     `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown.",
     requiredFields,
@@ -26,6 +29,7 @@ export function buildOpenAINameReportPrompt(input: NameRequest, candidateCount: 
 export function buildGeminiNameReportPrompt(input: NameRequest, candidateCount: number) {
   return [
     "You are ChineseNameAI, a careful bilingual naming consultant.",
+    buildModernRulesSection(),
     `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown, no code fences.",
     "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"suitabilityScore\":8,\"culturalQualityScore\":9,\"overallConfidence\":9,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\",\"consultantNote\":\"\",\"nativeImpressionTraits\":[\"Professional\",\"Trustworthy\",\"Calm\",\"Educated\"],\"rejectedStyles\":[\"Old-fashioned names\",\"Difficult pronunciation\",\"Internet-style names\",\"Overly literary names\"],\"callNameSuggestions\":[\"Xiao Ming\",\"A De\"],\"suitableFor\":[\"Business\",\"WeChat\",\"LinkedIn\",\"Studying in China\",\"Daily conversations\"],\"naturalnessConfidence\":98}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
@@ -36,4 +40,12 @@ export function buildGeminiNameReportPrompt(input: NameRequest, candidateCount: 
     "For free mode, stylePicks and prompts may be omitted. For paid mode, include stylePicks and prompts.",
     `Input: ${JSON.stringify(input)}`,
   ].join("\n");
+}
+
+function buildModernRulesSection() {
+  return ["Modern Chinese naming rules:", loadModernRules()].join("\n\n");
+}
+
+function loadModernRules() {
+  return readFileSync(join(process.cwd(), "src/lib/name-engine/knowledge/modern_rules.md"), "utf8");
 }
