@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { generateNameReport } from "@/lib/openai";
+import { generateNameReport } from "@/src/lib/name-engine";
 import { createAdminClient, createClient, hasSupabaseAdminConfig } from "@/lib/supabase-server";
 
 const requestSchema = z.object({

@@ -1,0 +1,39 @@
+import type { NameRequest } from "@/lib/types";
+
+const requiredFields =
+  "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, suitabilityScore, culturalQualityScore, overallConfidence, nativeImpression, riskWarning, whyItFits, consultantNote, nativeImpressionTraits, rejectedStyles, callNameSuggestions, suitableFor, and naturalnessConfidence.";
+
+const consultantVoice =
+  "Write like a thoughtful Chinese naming consultant, not a generator. Explain why you would personally recommend or reject a style. Use plain, consumer-friendly English. Avoid archaic or academic words such as sagacious. Match the user's gender; if gender is neutral, avoid gendered words such as man or woman.";
+
+const humanReviewFields =
+  "nativeImpressionTraits should be 3-5 concise traits a native Chinese person may perceive. rejectedStyles should mention styles intentionally avoided, such as old-fashioned names, difficult pronunciation, internet-style names, or overly literary names. callNameSuggestions should include natural short forms like Xiao + given-name character or A + given-name character. suitableFor should include realistic contexts such as Business, WeChat, LinkedIn, Studying in China, Daily conversations.";
+
+export function buildOpenAINameReportPrompt(input: NameRequest, candidateCount: number) {
+  return [
+    "You are ChineseNameAI, a careful bilingual naming consultant.",
+    `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
+    "Return strict JSON only. No markdown.",
+    requiredFields,
+    "Scores must be realistic 1-10 integers. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence. pronunciationDifficulty must be Easy, Medium, or Hard. nativeImpression must be Elegant, Professional, Friendly, Literary, or Modern. riskWarning must be Safe, Slightly formal, Too literary, or Old-fashioned.",
+    consultantVoice,
+    humanReviewFields,
+    "For paid mode include stylePicks and prompts with Chinese signature and seal image-generation prompts.",
+    `Input: ${JSON.stringify(input)}`,
+  ].join("\n");
+}
+
+export function buildGeminiNameReportPrompt(input: NameRequest, candidateCount: number) {
+  return [
+    "You are ChineseNameAI, a careful bilingual naming consultant.",
+    `Generate exactly ${candidateCount} suitable Chinese full names for a foreign user.`,
+    "Return strict JSON only. No markdown, no code fences.",
+    "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"suitabilityScore\":8,\"culturalQualityScore\":9,\"overallConfidence\":9,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\",\"consultantNote\":\"\",\"nativeImpressionTraits\":[\"Professional\",\"Trustworthy\",\"Calm\",\"Educated\"],\"rejectedStyles\":[\"Old-fashioned names\",\"Difficult pronunciation\",\"Internet-style names\",\"Overly literary names\"],\"callNameSuggestions\":[\"Xiao Ming\",\"A De\"],\"suitableFor\":[\"Business\",\"WeChat\",\"LinkedIn\",\"Studying in China\",\"Daily conversations\"],\"naturalnessConfidence\":98}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
+    requiredFields,
+    "Scores must be realistic 1-10 integers based on how a native Chinese speaker would perceive the name. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence.",
+    consultantVoice,
+    humanReviewFields,
+    "For free mode, stylePicks and prompts may be omitted. For paid mode, include stylePicks and prompts.",
+    `Input: ${JSON.stringify(input)}`,
+  ].join("\n");
+}
