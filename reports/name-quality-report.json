@@ -1,0 +1,3140 @@
+{
+  "generatedAt": "2026-06-29T15:19:12.762Z",
+  "inputProfiles": 100,
+  "generatedNames": 100,
+  "summary": {
+    "duplicates": 0,
+    "badNames": 0,
+    "oldNames": 0,
+    "fictionalNames": 0,
+    "weakExplanations": 0,
+    "totalIssues": 0,
+    "profilesWithIssues": 0,
+    "passRate": 100
+  },
+  "issues": [],
+  "samples": [
+    {
+      "profile": {
+        "id": 1,
+        "englishName": "Michael Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "王一诺",
+      "pinyin": "Wang Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Yinuo was selected for Michael Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 2,
+        "englishName": "Emily Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "李一诺",
+      "pinyin": "Li Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Yinuo was selected for Emily Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 3,
+        "englishName": "David Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "李宇辰",
+      "pinyin": "Li Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Yuchen was selected for David Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 4,
+        "englishName": "Sarah Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "刘一诺",
+      "pinyin": "Liu Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Yinuo was selected for Sarah Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 5,
+        "englishName": "James Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "张宇辰",
+      "pinyin": "Zhang Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Yuchen was selected for James Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 6,
+        "englishName": "Olivia Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "杨一诺",
+      "pinyin": "Yang Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Yang Yinuo was selected for Olivia Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 7,
+        "englishName": "Daniel Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "刘宇辰",
+      "pinyin": "Liu Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Yuchen was selected for Daniel Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 8,
+        "englishName": "Sophia Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "黄一诺",
+      "pinyin": "Huang Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Yinuo was selected for Sophia Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 9,
+        "englishName": "William Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "周一诺",
+      "pinyin": "Zhou Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Yinuo was selected for William Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 10,
+        "englishName": "Emma Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "吴一诺",
+      "pinyin": "Wu Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wu Yinuo was selected for Emma Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 11,
+        "englishName": "Alexander Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "徐一诺",
+      "pinyin": "Xu Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Xu Yinuo was selected for Alexander Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 12,
+        "englishName": "Isabella Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "孙一诺",
+      "pinyin": "Sun Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Sun Yinuo was selected for Isabella Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 13,
+        "englishName": "Benjamin Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "赵宇辰",
+      "pinyin": "Zhao Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Yuchen was selected for Benjamin Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 14,
+        "englishName": "Mia Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "林一诺",
+      "pinyin": "Lin Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Lin Yinuo was selected for Mia Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 15,
+        "englishName": "Matthew Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "黄宇辰",
+      "pinyin": "Huang Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Yuchen was selected for Matthew Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 16,
+        "englishName": "Charlotte Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "王安然",
+      "pinyin": "Wang Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Anran was selected for Charlotte Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 17,
+        "englishName": "Lucas Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "周宇辰",
+      "pinyin": "Zhou Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Yuchen was selected for Lucas Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 18,
+        "englishName": "Amelia Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "李安然",
+      "pinyin": "Li Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Anran was selected for Amelia Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 19,
+        "englishName": "Henry Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "陈宇辰",
+      "pinyin": "Chen Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Chen Yuchen was selected for Henry Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 20,
+        "englishName": "Grace Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "张安然",
+      "pinyin": "Zhang Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Anran was selected for Grace Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    }
+  ],
+  "generated": [
+    {
+      "profile": {
+        "id": 1,
+        "englishName": "Michael Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "王一诺",
+      "pinyin": "Wang Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Yinuo was selected for Michael Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 2,
+        "englishName": "Emily Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "李一诺",
+      "pinyin": "Li Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Yinuo was selected for Emily Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 3,
+        "englishName": "David Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "李宇辰",
+      "pinyin": "Li Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Yuchen was selected for David Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 4,
+        "englishName": "Sarah Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "刘一诺",
+      "pinyin": "Liu Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Yinuo was selected for Sarah Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 5,
+        "englishName": "James Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "张宇辰",
+      "pinyin": "Zhang Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Yuchen was selected for James Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 6,
+        "englishName": "Olivia Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "杨一诺",
+      "pinyin": "Yang Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Yang Yinuo was selected for Olivia Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 7,
+        "englishName": "Daniel Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "刘宇辰",
+      "pinyin": "Liu Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Yuchen was selected for Daniel Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 8,
+        "englishName": "Sophia Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "黄一诺",
+      "pinyin": "Huang Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Yinuo was selected for Sophia Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 9,
+        "englishName": "William Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "周一诺",
+      "pinyin": "Zhou Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Yinuo was selected for William Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 10,
+        "englishName": "Emma Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "吴一诺",
+      "pinyin": "Wu Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wu Yinuo was selected for Emma Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 11,
+        "englishName": "Alexander Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "徐一诺",
+      "pinyin": "Xu Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Xu Yinuo was selected for Alexander Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 12,
+        "englishName": "Isabella Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "孙一诺",
+      "pinyin": "Sun Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Sun Yinuo was selected for Isabella Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 13,
+        "englishName": "Benjamin Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "赵宇辰",
+      "pinyin": "Zhao Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Yuchen was selected for Benjamin Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 14,
+        "englishName": "Mia Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "林一诺",
+      "pinyin": "Lin Yinuo",
+      "gender": "neutral",
+      "meaning": "trustworthy, focused, and true to promises",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Lin Yinuo was selected for Mia Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is trustworthy, focused, and true to promises, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 15,
+        "englishName": "Matthew Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "黄宇辰",
+      "pinyin": "Huang Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Yuchen was selected for Matthew Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 16,
+        "englishName": "Charlotte Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "王安然",
+      "pinyin": "Wang Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Anran was selected for Charlotte Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 17,
+        "englishName": "Lucas Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "周宇辰",
+      "pinyin": "Zhou Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Yuchen was selected for Lucas Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 18,
+        "englishName": "Amelia Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "李安然",
+      "pinyin": "Li Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Anran was selected for Amelia Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 19,
+        "englishName": "Henry Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "陈宇辰",
+      "pinyin": "Chen Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Chen Yuchen was selected for Henry Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 20,
+        "englishName": "Grace Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "张安然",
+      "pinyin": "Zhang Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Anran was selected for Grace Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 21,
+        "englishName": "Ethan Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "杨宇辰",
+      "pinyin": "Yang Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Yang Yuchen was selected for Ethan Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 22,
+        "englishName": "Chloe Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "刘安然",
+      "pinyin": "Liu Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Anran was selected for Chloe Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 23,
+        "englishName": "Noah Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "孙宇辰",
+      "pinyin": "Sun Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Sun Yuchen was selected for Noah Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 24,
+        "englishName": "Ava Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "周安然",
+      "pinyin": "Zhou Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Anran was selected for Ava Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 25,
+        "englishName": "Liam Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "马宇辰",
+      "pinyin": "Ma Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Ma Yuchen was selected for Liam Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 26,
+        "englishName": "Sophie Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "徐安然",
+      "pinyin": "Xu Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Xu Anran was selected for Sophie Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 27,
+        "englishName": "Ryan Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "林宇辰",
+      "pinyin": "Lin Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Lin Yuchen was selected for Ryan Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 28,
+        "englishName": "Hannah Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "赵安然",
+      "pinyin": "Zhao Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Anran was selected for Hannah Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 29,
+        "englishName": "Andrew Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "何宇辰",
+      "pinyin": "He Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "He Yuchen was selected for Andrew Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 30,
+        "englishName": "Ella Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "黄安然",
+      "pinyin": "Huang Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Anran was selected for Ella Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 31,
+        "englishName": "Thomas Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "陈安然",
+      "pinyin": "Chen Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Chen Anran was selected for Thomas Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 32,
+        "englishName": "Lily Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "周若涵",
+      "pinyin": "Zhou Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Ruohan was selected for Lily Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 33,
+        "englishName": "Nathan Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "李明轩",
+      "pinyin": "Li Mingxuan",
+      "gender": "male",
+      "meaning": "bright-minded with elegant presence",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Mingxuan was selected for Nathan Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is bright-minded with elegant presence, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 34,
+        "englishName": "Zoe Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "李若涵",
+      "pinyin": "Li Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Ruohan was selected for Zoe Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 35,
+        "englishName": "Samuel Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "张明轩",
+      "pinyin": "Zhang Mingxuan",
+      "gender": "male",
+      "meaning": "bright-minded with elegant presence",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Mingxuan was selected for Samuel Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is bright-minded with elegant presence, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 36,
+        "englishName": "Nora Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "张若涵",
+      "pinyin": "Zhang Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Ruohan was selected for Nora Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 37,
+        "englishName": "Joseph Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "刘明轩",
+      "pinyin": "Liu Mingxuan",
+      "gender": "male",
+      "meaning": "bright-minded with elegant presence",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Mingxuan was selected for Joseph Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is bright-minded with elegant presence, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 38,
+        "englishName": "Clara Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "孙安然",
+      "pinyin": "Sun Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Sun Anran was selected for Clara Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 39,
+        "englishName": "Jacob Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "吴安然",
+      "pinyin": "Wu Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Wu Anran was selected for Jacob Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 40,
+        "englishName": "Lucy Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "马安然",
+      "pinyin": "Ma Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Ma Anran was selected for Lucy Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 41,
+        "englishName": "Anthony Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "林安然",
+      "pinyin": "Lin Anran",
+      "gender": "neutral",
+      "meaning": "calm, peaceful, and naturally composed",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "young adult to mature adult",
+      "recommendedForForeigners": true,
+      "reason": "Lin Anran was selected for Anthony Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is calm, peaceful, and naturally composed, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 42,
+        "englishName": "Eva Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "林若涵",
+      "pinyin": "Lin Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Lin Ruohan was selected for Eva Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 43,
+        "englishName": "Christopher Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "赵明轩",
+      "pinyin": "Zhao Mingxuan",
+      "gender": "male",
+      "meaning": "bright-minded with elegant presence",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Mingxuan was selected for Christopher Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is bright-minded with elegant presence, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 44,
+        "englishName": "Alice Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "赵若涵",
+      "pinyin": "Zhao Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Ruohan was selected for Alice Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 45,
+        "englishName": "Jonathan Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "黄明轩",
+      "pinyin": "Huang Mingxuan",
+      "gender": "male",
+      "meaning": "bright-minded with elegant presence",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Mingxuan was selected for Jonathan Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is bright-minded with elegant presence, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 46,
+        "englishName": "Maya Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "黄若涵",
+      "pinyin": "Huang Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Ruohan was selected for Maya Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 47,
+        "englishName": "Nicholas Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "周明轩",
+      "pinyin": "Zhou Mingxuan",
+      "gender": "male",
+      "meaning": "bright-minded with elegant presence",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Mingxuan was selected for Nicholas Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is bright-minded with elegant presence, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 48,
+        "englishName": "Iris Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "王嘉宁",
+      "pinyin": "Wang Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Jianing was selected for Iris Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 49,
+        "englishName": "Kevin Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "王彦诚",
+      "pinyin": "Wang Yancheng",
+      "gender": "male",
+      "meaning": "talented, sincere, and reliable",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Yancheng was selected for Kevin Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is talented, sincere, and reliable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 50,
+        "englishName": "Julia Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "李欣怡",
+      "pinyin": "Li Xinyi",
+      "gender": "female",
+      "meaning": "joyful, pleasant, and approachable",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Xinyi was selected for Julia Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is joyful, pleasant, and approachable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 51,
+        "englishName": "Morgan Anderson",
+        "gender": "neutral",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "吴宇辰",
+      "pinyin": "Wu Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wu Yuchen was selected for Morgan Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 52,
+        "englishName": "Taylor Smith",
+        "gender": "neutral",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "徐宇辰",
+      "pinyin": "Xu Yuchen",
+      "gender": "male",
+      "meaning": "broad-minded and promising",
+      "modernness": 9,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Xu Yuchen was selected for Taylor Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is broad-minded and promising, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 53,
+        "englishName": "Jordan Johnson",
+        "gender": "neutral",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "王明轩",
+      "pinyin": "Wang Mingxuan",
+      "gender": "male",
+      "meaning": "bright-minded with elegant presence",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Mingxuan was selected for Jordan Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is bright-minded with elegant presence, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 54,
+        "englishName": "Casey Brown",
+        "gender": "neutral",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "王文清",
+      "pinyin": "Wang Wenqing",
+      "gender": "neutral",
+      "meaning": "cultured, clear, and quietly refined",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Wenqing was selected for Casey Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is cultured, clear, and quietly refined, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 55,
+        "englishName": "Alex Williams",
+        "gender": "neutral",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "王若涵",
+      "pinyin": "Wang Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Ruohan was selected for Alex Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 56,
+        "englishName": "Jamie Miller",
+        "gender": "neutral",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "李文清",
+      "pinyin": "Li Wenqing",
+      "gender": "neutral",
+      "meaning": "cultured, clear, and quietly refined",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Li Wenqing was selected for Jamie Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is cultured, clear, and quietly refined, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 57,
+        "englishName": "Riley Davis",
+        "gender": "neutral",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "张文清",
+      "pinyin": "Zhang Wenqing",
+      "gender": "neutral",
+      "meaning": "cultured, clear, and quietly refined",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Wenqing was selected for Riley Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is cultured, clear, and quietly refined, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 58,
+        "englishName": "Avery Wilson",
+        "gender": "neutral",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "刘文清",
+      "pinyin": "Liu Wenqing",
+      "gender": "neutral",
+      "meaning": "cultured, clear, and quietly refined",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Wenqing was selected for Avery Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is cultured, clear, and quietly refined, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 59,
+        "englishName": "Quinn Moore",
+        "gender": "neutral",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "陈文清",
+      "pinyin": "Chen Wenqing",
+      "gender": "neutral",
+      "meaning": "cultured, clear, and quietly refined",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Chen Wenqing was selected for Quinn Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is cultured, clear, and quietly refined, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 60,
+        "englishName": "Rowan Taylor",
+        "gender": "neutral",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "刘若涵",
+      "pinyin": "Liu Ruohan",
+      "gender": "female",
+      "meaning": "gentle, thoughtful, and emotionally deep",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Ruohan was selected for Rowan Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is gentle, thoughtful, and emotionally deep, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 61,
+        "englishName": "Michael Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "刘彦诚",
+      "pinyin": "Liu Yancheng",
+      "gender": "male",
+      "meaning": "talented, sincere, and reliable",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Yancheng was selected for Michael Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is talented, sincere, and reliable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 62,
+        "englishName": "Emily Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "杨欣怡",
+      "pinyin": "Yang Xinyi",
+      "gender": "female",
+      "meaning": "joyful, pleasant, and approachable",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Yang Xinyi was selected for Emily Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is joyful, pleasant, and approachable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 63,
+        "englishName": "David Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "张嘉宁",
+      "pinyin": "Zhang Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Jianing was selected for David Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 64,
+        "englishName": "Sarah Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "刘嘉宁",
+      "pinyin": "Liu Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Jianing was selected for Sarah Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 65,
+        "englishName": "James Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "陈嘉宁",
+      "pinyin": "Chen Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Chen Jianing was selected for James Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 66,
+        "englishName": "Olivia Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "杨嘉宁",
+      "pinyin": "Yang Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Yang Jianing was selected for Olivia Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 67,
+        "englishName": "Daniel Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "赵嘉宁",
+      "pinyin": "Zhao Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Jianing was selected for Daniel Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 68,
+        "englishName": "Sophia Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "黄欣怡",
+      "pinyin": "Huang Xinyi",
+      "gender": "female",
+      "meaning": "joyful, pleasant, and approachable",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Xinyi was selected for Sophia Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is joyful, pleasant, and approachable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 69,
+        "englishName": "William Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "杨彦诚",
+      "pinyin": "Yang Yancheng",
+      "gender": "male",
+      "meaning": "talented, sincere, and reliable",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Yang Yancheng was selected for William Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is talented, sincere, and reliable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 70,
+        "englishName": "Emma Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "周雅慧",
+      "pinyin": "Zhou Yahui",
+      "gender": "female",
+      "meaning": "refined, intelligent, and graceful",
+      "modernness": 8,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Yahui was selected for Emma Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is refined, intelligent, and graceful, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 71,
+        "englishName": "Alexander Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "赵睿明",
+      "pinyin": "Zhao Ruiming",
+      "gender": "male",
+      "meaning": "wise, perceptive, and clear-minded",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Ruiming was selected for Alexander Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is wise, perceptive, and clear-minded, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 72,
+        "englishName": "Isabella Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "周嘉宁",
+      "pinyin": "Zhou Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Jianing was selected for Isabella Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 73,
+        "englishName": "Benjamin Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "马嘉宁",
+      "pinyin": "Ma Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Ma Jianing was selected for Benjamin Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 74,
+        "englishName": "Mia Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "林嘉宁",
+      "pinyin": "Lin Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Lin Jianing was selected for Mia Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 75,
+        "englishName": "Matthew Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "何嘉宁",
+      "pinyin": "He Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "He Jianing was selected for Matthew Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 76,
+        "englishName": "Charlotte Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "王欣怡",
+      "pinyin": "Wang Xinyi",
+      "gender": "female",
+      "meaning": "joyful, pleasant, and approachable",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Xinyi was selected for Charlotte Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is joyful, pleasant, and approachable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 77,
+        "englishName": "Lucas Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "王知远",
+      "pinyin": "Wang Zhiyuan",
+      "gender": "male",
+      "meaning": "thoughtful, knowledgeable, and far-sighted",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Zhiyuan was selected for Lucas Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is thoughtful, knowledgeable, and far-sighted, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 78,
+        "englishName": "Amelia Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "徐嘉宁",
+      "pinyin": "Xu Jianing",
+      "gender": "neutral",
+      "meaning": "admirable, peaceful, and balanced",
+      "modernness": 9,
+      "popularity": "medium-high",
+      "businessSuitability": 8,
+      "ageImpression": "young adult to adult",
+      "recommendedForForeigners": true,
+      "reason": "Xu Jianing was selected for Amelia Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is admirable, peaceful, and balanced, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 79,
+        "englishName": "Henry Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "周睿明",
+      "pinyin": "Zhou Ruiming",
+      "gender": "male",
+      "meaning": "wise, perceptive, and clear-minded",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Ruiming was selected for Henry Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is wise, perceptive, and clear-minded, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 80,
+        "englishName": "Grace Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "孙欣怡",
+      "pinyin": "Sun Xinyi",
+      "gender": "female",
+      "meaning": "joyful, pleasant, and approachable",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Sun Xinyi was selected for Grace Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is joyful, pleasant, and approachable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 81,
+        "englishName": "Ethan Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "周彦诚",
+      "pinyin": "Zhou Yancheng",
+      "gender": "male",
+      "meaning": "talented, sincere, and reliable",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Yancheng was selected for Ethan Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is talented, sincere, and reliable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 82,
+        "englishName": "Chloe Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "马雅慧",
+      "pinyin": "Ma Yahui",
+      "gender": "female",
+      "meaning": "refined, intelligent, and graceful",
+      "modernness": 8,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Ma Yahui was selected for Chloe Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is refined, intelligent, and graceful, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 83,
+        "englishName": "Noah Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "张知远",
+      "pinyin": "Zhang Zhiyuan",
+      "gender": "male",
+      "meaning": "thoughtful, knowledgeable, and far-sighted",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhang Zhiyuan was selected for Noah Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is thoughtful, knowledgeable, and far-sighted, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 84,
+        "englishName": "Ava Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "周欣怡",
+      "pinyin": "Zhou Xinyi",
+      "gender": "female",
+      "meaning": "joyful, pleasant, and approachable",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhou Xinyi was selected for Ava Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is joyful, pleasant, and approachable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 85,
+        "englishName": "Liam Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "刘睿明",
+      "pinyin": "Liu Ruiming",
+      "gender": "male",
+      "meaning": "wise, perceptive, and clear-minded",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Ruiming was selected for Liam Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is wise, perceptive, and clear-minded, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 86,
+        "englishName": "Sophie Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "徐欣怡",
+      "pinyin": "Xu Xinyi",
+      "gender": "female",
+      "meaning": "joyful, pleasant, and approachable",
+      "modernness": 8,
+      "popularity": "high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Xu Xinyi was selected for Sophie Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is joyful, pleasant, and approachable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 87,
+        "englishName": "Ryan Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "陈睿明",
+      "pinyin": "Chen Ruiming",
+      "gender": "male",
+      "meaning": "wise, perceptive, and clear-minded",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Chen Ruiming was selected for Ryan Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is wise, perceptive, and clear-minded, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 88,
+        "englishName": "Hannah Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "何雅慧",
+      "pinyin": "He Yahui",
+      "gender": "female",
+      "meaning": "refined, intelligent, and graceful",
+      "modernness": 8,
+      "popularity": "medium-high",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "He Yahui was selected for Hannah Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is refined, intelligent, and graceful, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 89,
+        "englishName": "Andrew Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "徐彦诚",
+      "pinyin": "Xu Yancheng",
+      "gender": "male",
+      "meaning": "talented, sincere, and reliable",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Xu Yancheng was selected for Andrew Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is talented, sincere, and reliable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 90,
+        "englishName": "Ella Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "王语桐",
+      "pinyin": "Wang Yutong",
+      "gender": "female",
+      "meaning": "expressive, graceful, and warm",
+      "modernness": 8,
+      "popularity": "medium-high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Yutong was selected for Ella Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is expressive, graceful, and warm, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 91,
+        "englishName": "Thomas Anderson",
+        "gender": "male",
+        "country": "United States",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "孙睿明",
+      "pinyin": "Sun Ruiming",
+      "gender": "male",
+      "meaning": "wise, perceptive, and clear-minded",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Sun Ruiming was selected for Thomas Anderson from United States because it matches a confident, calm, analytical profile and works for Business. The name's core impression is wise, perceptive, and clear-minded, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 92,
+        "englishName": "Lily Smith",
+        "gender": "female",
+        "country": "United Kingdom",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "王思妍",
+      "pinyin": "Wang Siyan",
+      "gender": "female",
+      "meaning": "thoughtful, graceful, and pleasant",
+      "modernness": 8,
+      "popularity": "medium-high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Wang Siyan was selected for Lily Smith from United Kingdom because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is thoughtful, graceful, and pleasant, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 93,
+        "englishName": "Nathan Johnson",
+        "gender": "male",
+        "country": "Canada",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "赵知远",
+      "pinyin": "Zhao Zhiyuan",
+      "gender": "male",
+      "meaning": "thoughtful, knowledgeable, and far-sighted",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Zhiyuan was selected for Nathan Johnson from Canada because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is thoughtful, knowledgeable, and far-sighted, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 94,
+        "englishName": "Zoe Brown",
+        "gender": "female",
+        "country": "Australia",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "杨文清",
+      "pinyin": "Yang Wenqing",
+      "gender": "neutral",
+      "meaning": "cultured, clear, and quietly refined",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Yang Wenqing was selected for Zoe Brown from Australia because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is cultured, clear, and quietly refined, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 95,
+        "englishName": "Samuel Williams",
+        "gender": "male",
+        "country": "Germany",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "赵彦诚",
+      "pinyin": "Zhao Yancheng",
+      "gender": "male",
+      "meaning": "talented, sincere, and reliable",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Yancheng was selected for Samuel Williams from Germany because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is talented, sincere, and reliable, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 96,
+        "englishName": "Nora Miller",
+        "gender": "female",
+        "country": "France",
+        "personality": "confident, calm, analytical",
+        "purpose": "Business"
+      },
+      "chinese": "赵文清",
+      "pinyin": "Zhao Wenqing",
+      "gender": "neutral",
+      "meaning": "cultured, clear, and quietly refined",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 9,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Zhao Wenqing was selected for Nora Miller from France because it matches a confident, calm, analytical profile and works for Business. The name's core impression is cultured, clear, and quietly refined, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Business.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 97,
+        "englishName": "Joseph Davis",
+        "gender": "male",
+        "country": "Brazil",
+        "personality": "friendly, creative, warm",
+        "purpose": "Studying in China"
+      },
+      "chinese": "黄睿明",
+      "pinyin": "Huang Ruiming",
+      "gender": "male",
+      "meaning": "wise, perceptive, and clear-minded",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Huang Ruiming was selected for Joseph Davis from Brazil because it matches a friendly, creative, warm profile and works for Studying in China. The name's core impression is wise, perceptive, and clear-minded, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Studying in China.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 98,
+        "englishName": "Clara Wilson",
+        "gender": "female",
+        "country": "India",
+        "personality": "ambitious, reliable, thoughtful",
+        "purpose": "WeChat"
+      },
+      "chinese": "刘思妍",
+      "pinyin": "Liu Siyan",
+      "gender": "female",
+      "meaning": "thoughtful, graceful, and pleasant",
+      "modernness": 8,
+      "popularity": "medium-high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Liu Siyan was selected for Clara Wilson from India because it matches a ambitious, reliable, thoughtful profile and works for WeChat. The name's core impression is thoughtful, graceful, and pleasant, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for WeChat.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 99,
+        "englishName": "Jacob Moore",
+        "gender": "male",
+        "country": "Singapore",
+        "personality": "curious, open-minded, practical",
+        "purpose": "LinkedIn"
+      },
+      "chinese": "林睿明",
+      "pinyin": "Lin Ruiming",
+      "gender": "male",
+      "meaning": "wise, perceptive, and clear-minded",
+      "modernness": 8,
+      "popularity": "medium",
+      "businessSuitability": 10,
+      "ageImpression": "adult",
+      "recommendedForForeigners": true,
+      "reason": "Lin Ruiming was selected for Jacob Moore from Singapore because it matches a curious, open-minded, practical profile and works for LinkedIn. The name's core impression is wise, perceptive, and clear-minded, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for LinkedIn.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    },
+    {
+      "profile": {
+        "id": 100,
+        "englishName": "Lucy Taylor",
+        "gender": "female",
+        "country": "Spain",
+        "personality": "professional, steady, approachable",
+        "purpose": "Daily conversations"
+      },
+      "chinese": "陈思妍",
+      "pinyin": "Chen Siyan",
+      "gender": "female",
+      "meaning": "thoughtful, graceful, and pleasant",
+      "modernness": 8,
+      "popularity": "medium-high",
+      "businessSuitability": 7,
+      "ageImpression": "young adult",
+      "recommendedForForeigners": true,
+      "reason": "Chen Siyan was selected for Lucy Taylor from Spain because it matches a professional, steady, approachable profile and works for Daily conversations. The name's core impression is thoughtful, graceful, and pleasant, which gives a native Chinese listener a modern, usable, and natural first impression rather than a literal translation.",
+      "avoidedStyles": [
+        "Avoided old-fashioned names that would feel dated for Daily conversations.",
+        "Avoided fictional, internet-style, or fantasy-sounding names.",
+        "Avoided names with difficult pronunciation or awkward character combinations.",
+        "Avoided direct transliteration because the goal is a real Chinese name, not a copied English sound."
+      ]
+    }
+  ]
+}
