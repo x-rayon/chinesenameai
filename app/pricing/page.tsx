@@ -4,21 +4,40 @@ import { Check, CreditCard } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Start free or unlock a complete Chinese name report with 30 names, pinyin, meanings, and cultural context.",
+  description: "Start free or unlock a complete Chinese Name Report with native-style evaluation and cultural context.",
 };
 
 export default function PricingPage() {
   return (
     <div className="mx-auto max-w-4xl">
       <p className="text-sm font-semibold uppercase tracking-wide text-cinnabar">Pricing</p>
-      <h1 className="mt-2 text-4xl font-semibold">Start free. Unlock the complete report for $4.99.</h1>
+      <h1 className="mt-2 text-4xl font-semibold">Choose a Chinese name with confidence.</h1>
+      <p className="mt-3 max-w-2xl text-ink/65">
+        Start with a free sample, then unlock a complete Chinese Name Report when you want native-style evaluation,
+        pronunciation guidance, and cultural fit.
+      </p>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
-        <Plan title="Free" price="$0" cta="Generate free names" href="/generate" items={["3 Chinese names", "Pinyin", "Short meanings", "3 generations per day"]} />
+        <Plan
+          title="Free"
+          price="$0"
+          cta="Get my Chinese name"
+          href="/generate"
+          items={["3 Chinese name suggestions", "Pinyin", "Short meaning", "Basic cultural notes"]}
+        />
         <form action="/api/checkout" method="POST" className="border-2 border-cinnabar bg-white p-6 shadow-soft">
-          <h2 className="text-2xl font-semibold">Full report</h2>
+          <h2 className="text-2xl font-semibold">Complete Chinese Name Report</h2>
           <p className="mt-2 text-4xl font-semibold">$4.99</p>
           <ul className="mt-6 space-y-3 text-sm text-ink/75">
-            {["30 Chinese names", "Pinyin and English explanations", "Chinese meanings and cultural context", "Business, literary, modern, classic styles", "Signature and seal prompts"].map((item) => (
+            {[
+              "Complete Chinese Name Report",
+              "30 personalized name suggestions",
+              "Native-style evaluation",
+              "Naturalness and modernness scores",
+              "Cultural meaning and personality fit",
+              "Pronunciation guide",
+              "Business / personal / academic suitability",
+              "Signature and seal prompts",
+            ].map((item) => (
               <li key={item} className="flex gap-2">
                 <Check className="h-4 w-4 shrink-0 text-jade" aria-hidden />
                 {item}
@@ -27,7 +46,7 @@ export default function PricingPage() {
           </ul>
           <button className="mt-6 inline-flex w-full items-center justify-center gap-2 bg-cinnabar px-5 py-3 font-medium text-white">
             <CreditCard className="h-4 w-4" aria-hidden />
-            Pay once
+            Unlock full report
           </button>
         </form>
       </div>

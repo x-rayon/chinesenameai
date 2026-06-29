@@ -14,6 +14,15 @@ const nameIdeaSchema = z.object({
   culturalExplanation: z.string(),
   suitableScenarios: z.array(z.string()).min(1),
   style: z.enum(["business", "literary", "modern", "classic"]),
+  impressionSummary: z.string().optional(),
+  naturalnessScore: z.number().min(1).max(10).optional(),
+  modernnessScore: z.number().min(1).max(10).optional(),
+  pronunciationDifficulty: z.enum(["Easy", "Medium", "Hard"]).optional(),
+  businessFit: z.number().min(1).max(10).optional(),
+  personalFit: z.number().min(1).max(10).optional(),
+  nativeImpression: z.enum(["Elegant", "Professional", "Friendly", "Literary", "Modern"]).optional(),
+  riskWarning: z.enum(["Safe", "Slightly formal", "Too literary", "Old-fashioned"]).optional(),
+  whyItFits: z.string().optional(),
 });
 
 const reportSchema = z.object({
@@ -49,7 +58,8 @@ export async function generateNameReport(input: NameRequest): Promise<NameReport
     "You are ChineseNameAI, a careful bilingual naming consultant.",
     `Generate exactly ${count} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown.",
-    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, and style.",
+    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, nativeImpression, riskWarning, and whyItFits.",
+    "Scores must be realistic 1-10 integers. pronunciationDifficulty must be Easy, Medium, or Hard. nativeImpression must be Elegant, Professional, Friendly, Literary, or Modern. riskWarning must be Safe, Slightly formal, Too literary, or Old-fashioned.",
     "For paid mode include stylePicks and prompts with Chinese signature and seal image-generation prompts.",
     `Input: ${JSON.stringify(input)}`,
   ].join("\n");
@@ -87,8 +97,9 @@ async function generateGeminiNameReport(input: NameRequest, count: number): Prom
     "You are ChineseNameAI, a careful bilingual naming consultant.",
     `Generate exactly ${count} suitable Chinese full names for a foreign user.`,
     "Return strict JSON only. No markdown, no code fences.",
-    "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\"}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
-    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, and style.",
+    "JSON schema: {\"names\":[{\"chineseName\":\"\",\"pinyin\":\"\",\"englishExplanation\":\"\",\"chineseMeaning\":\"\",\"culturalExplanation\":\"\",\"suitableScenarios\":[\"\"],\"style\":\"business|literary|modern|classic\",\"impressionSummary\":\"This name gives the impression of...\",\"naturalnessScore\":9,\"modernnessScore\":8,\"pronunciationDifficulty\":\"Easy|Medium|Hard\",\"businessFit\":8,\"personalFit\":8,\"nativeImpression\":\"Elegant|Professional|Friendly|Literary|Modern\",\"riskWarning\":\"Safe|Slightly formal|Too literary|Old-fashioned\",\"whyItFits\":\"\"}],\"stylePicks\":{\"business\":\"\",\"literary\":\"\",\"modern\":\"\",\"classic\":\"\"},\"prompts\":{\"signaturePrompt\":\"\",\"sealPrompt\":\"\"}}",
+    "Each name must include chineseName, pinyin, englishExplanation, chineseMeaning, culturalExplanation, suitableScenarios, style, impressionSummary, naturalnessScore, modernnessScore, pronunciationDifficulty, businessFit, personalFit, nativeImpression, riskWarning, and whyItFits.",
+    "Scores must be realistic 1-10 integers based on how a native Chinese speaker would perceive the name.",
     "For free mode, stylePicks and prompts may be omitted. For paid mode, include stylePicks and prompts.",
     `Input: ${JSON.stringify(input)}`,
   ].join("\n");

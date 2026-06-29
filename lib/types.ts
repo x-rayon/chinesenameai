@@ -17,6 +17,15 @@ export type NameIdea = {
   culturalExplanation: string;
   suitableScenarios: string[];
   style: "business" | "literary" | "modern" | "classic";
+  impressionSummary?: string;
+  naturalnessScore?: number;
+  modernnessScore?: number;
+  pronunciationDifficulty?: "Easy" | "Medium" | "Hard";
+  businessFit?: number;
+  personalFit?: number;
+  nativeImpression?: "Elegant" | "Professional" | "Friendly" | "Literary" | "Modern";
+  riskWarning?: "Safe" | "Slightly formal" | "Too literary" | "Old-fashioned";
+  whyItFits?: string;
 };
 
 export type SignaturePrompts = {
