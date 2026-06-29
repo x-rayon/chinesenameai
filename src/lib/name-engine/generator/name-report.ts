@@ -85,5 +85,5 @@ async function generateGeminiNameReport(
 }
 
 function selectQualifiedNames(input: NameRequest, names: NameIdea[], displayCount: number) {
-  return rankNameIdeas(reviewQualifiedNames(input, names)).slice(0, displayCount);
+  return rankNameIdeas(reviewQualifiedNames(input, names)).slice(0, Math.min(displayCount, 10));
 }
