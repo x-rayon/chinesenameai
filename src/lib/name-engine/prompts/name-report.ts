@@ -14,6 +14,9 @@ const humanReviewFields =
 const internalCandidateInstructions =
   "This is an internal candidate-generation task for the Name Engine. Do not write user-facing report copy and do not assume all candidates will be shown to the user. Create around 30 candidate names, then the engine will rank and display only the strongest names. Each candidate must clearly include: Reason (use whyItFits and consultantNote), Confidence (use overallConfidence and naturalnessConfidence), Style (use style), and Modernness (use modernnessScore).";
 
+const explanationInstructions =
+  "Explanation requirements: do not only explain individual characters. Every explanation must explain why the full name fits this specific user profile, including the user's English name, country or background, personality, gender preference, and purpose. englishExplanation should summarize the practical impression of the whole name. chineseMeaning may explain character meanings briefly, but must connect them to the user. culturalExplanation should explain how a native Chinese speaker would hear the name in real life. whyItFits must be profile-specific and mention why this name was selected over other possible styles. consultantNote should sound like direct advice from a native Chinese naming consultant. rejectedStyles must explain why unsuitable directions were avoided, such as names that are too old-fashioned, too literary, too internet-like, too hard to pronounce, too cute, too aggressive, or too close to transliteration.";
+
 export function buildOpenAINameReportPrompt(input: NameRequest, candidateCount: number) {
   return [
     "You are ChineseNameAI, a careful bilingual naming consultant.",
@@ -24,6 +27,7 @@ export function buildOpenAINameReportPrompt(input: NameRequest, candidateCount: 
     requiredFields,
     "Scores must be realistic 1-10 integers. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence. pronunciationDifficulty must be Easy, Medium, or Hard. nativeImpression must be Elegant, Professional, Friendly, Literary, or Modern. riskWarning must be Safe, Slightly formal, Too literary, or Old-fashioned.",
     consultantVoice,
+    explanationInstructions,
     humanReviewFields,
     "For paid mode include stylePicks and prompts with Chinese signature and seal image-generation prompts.",
     `Input: ${JSON.stringify(input)}`,
@@ -41,6 +45,7 @@ export function buildGeminiNameReportPrompt(input: NameRequest, candidateCount: 
     requiredFields,
     "Scores must be realistic 1-10 integers based on how a native Chinese speaker would perceive the name. Rank candidates by naturalness, modernness, suitability, cultural quality, and overall confidence.",
     consultantVoice,
+    explanationInstructions,
     humanReviewFields,
     "For free mode, stylePicks and prompts may be omitted. For paid mode, include stylePicks and prompts.",
     `Input: ${JSON.stringify(input)}`,
